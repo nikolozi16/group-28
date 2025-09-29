@@ -1,0 +1,38 @@
+<!-- 1)შექმენით ფორმა, სადაც  მომხარებელს შემოატანინებთ  სახეელს, ემეილს, პაროლს, და მანქანის ბერენდს სადაც გექნებათ  dropdown მენიუ შესარჩევად
+
+2)კომენტარების სახით ახსენით როგორ იგებს პროგრამა ინპუთი სად შეინაახოს და როგორ შეინახოს
+name-ის და id-ის დახმარებით 
+
+3)კომენტარების სახით ახსენით რა ხდება როცა ვაsubmitებთ ფორმას, მისამართს რა ემართება და რა ემატება,  რა განაპირობებს ამას
+ბრაუზერი იღებს ყველა input-ში შეყვანილ ინფორმაციას 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="user-name">First Name: </label>
+        <input type="text" name="name" id="user-name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="user-email" id="email">
+        <br>
+        <label for="pass">Password: </label>
+        <input type="password" name="user-password" id="pass">
+        <br>
+        <label for="">
+            <select name="cars" id="">
+                <option value="">BMW</option>
+                <option value="">Mercedes</option>
+                <option value="">Porshe</option>
+                <option value="">Bugat</option>
+            </select>
+        </label>
+        <button type="submit">Login!</button>
+    </form> 
+</body>
+</html>
