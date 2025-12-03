@@ -44,9 +44,9 @@
 # 6) <= Boss Level =>
 # შექმენით სია სადაც შეინახავთ სხვადასხვა სტრინგებს.
 # --> დაპრინტეთ ამ სიიდან ყველაზე გრძელი სტრინგი
-string = ["leopardi", "gorila", "niangi", "jirafi"]
-grdzeli = ""
-for i in range(len(string)):
-    if len(string[i]) > len(grdzeli):
-        grdzeli = string[i]
-print(grdzeli)
+# string = ["leopardi", "gorila", "niangi", "jirafi"]
+# grdzeli = ""
+# for i in range(len(string)):
+#     if len(string[i]) > len(grdzeli):
+#         grdzeli = string[i]
+# print(grdzeli)
